@@ -21,7 +21,7 @@ def load_phrases(file_path):
     return phrases_1
 
 
-phrases = load_phrases('X:/ALLPyCharmProjects/TelegramBot1/phrases.txt')
+phrases = load_phrases('X:/ALLPyCharmProjects/TelegramBot0.1/phrases.txt')
 text_for_main_start = phrases.get('text_for_main_start')
 
 
