@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "telegrambot0-1"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr Melnikov <Melnikbtw@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "telegrambot0"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+emoji = "^2.14.1"
+python-dotenv = "^1.0.1"
+pytelegrambotapi = "^4.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
